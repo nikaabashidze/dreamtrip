@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="x-icon" href="../assets/images/main-logo-white.png">
+    <title>DreamTrip</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>GoExplore! Travel Website Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="../assets/css/imports.css" media="screen">
+		<link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
+		<link rel="stylesheet" href="../assets/css/bootstrap.css" media="screen">
+		<link rel="stylesheet" href="../assets/css/other-pages.css" media="screen">
+		<link rel="stylesheet" href="../assets/css/owl-carousel.css" media="screen">
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="home">
+
+		<div id="top"></div>
+
+		<!-- Navigation (main menu)
+		================================================== -->
+
+		<div class="navbar-wrapper">
+			<header class="navbar navbar-default navbar-fixed-top" id="MainMenu">
+				<div class="navbar-extra-top clearfix">
+					<div class="navbar container-fluid">
+						<ul class="nav navbar-nav navbar-left">
+							<li class="menu-item"><a href="./4contact-us.html"><i class="fa fa-envelope"></i>Связаться с нами</a></li>
+							<li class="menu-item"><a href="./4about-us.html"><i class="fa fa-suitcase"></i> о нас</a></li>
+						</ul>
+						<div class="navbar-top-right">
+							<ul class="nav navbar-nav navbar-right">
+								<li>
+									 <a>
+											<select class="language" id="language" onchange="changeLanguage()">
+												<option value="ru">RU</option>
+												<option value="en">EN</option>
+												<option value="de">DE</option> 
+											</select>
+									</a>
+								</li>
+								
+								<li><a href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus fa-fw"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter fa-fw"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram fa-fw"></i></a></li>
+							</ul>
+							<form class="navbar-form navbar-right navbar-search" role="search" action="../search.html">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Search">
+								</div>
+								<button type="submit" class="btn btn-default"><span class="fa fa-search"></span></button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="container-fluid collapse-md" id="navbar-main-container">
+					<div class="navbar-header">
+						<a href="../index.html" class="navbar-brand"><img alt="GoExplore!" src="../assets/images/main-logo-white.png"><span class="sr-only">&nbsp; GoExplore!</span></a>
+						<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+
+					<nav class="navbar-collapse collapse" id="navbar-main">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown show-on-hover">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Главное</a>
+								<ul class="dropdown-menu" >
+									<li class="dropdown-submenu show-on-hover">
+										<a class="dropdown-toggle" data-toggle="dropdown">О Грузии</a>
+										<ul class="dropdown-menu " >
+											<li><a href="../pages/1geography.html">География</a></li>
+											<li><a href="../pages/1main-info.html">Главная информация</a></li>
+											<li><a href="../pages/1hystory.html">История</a></li>
+											<li><a href="../pages/1culture.html">Культура</a></li>
+											<li><a href="../pages/1kitchen-wine.html">Кухня и вино</a></li>
+											<li><a href="../pages/1why-georgia.html">Почему стоит посетить в грузию</a></li>
+											<li><a href="../pages/1main-city.html">Cтолица и главное города</a></li>
+											<li><a href="../pages/1flora-fauna.html">Флора и фауна</a></li>
+											<li><a href="../pages/1folklor.html">Фольклор</a></li>
+											<li><a href="../pages/1galery.html">Галерея</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu show-on-hover">
+										<a class="dropdown-toggle" data-toggle="dropdown" href="destination-parent.html">Достапримечательности</a>
+										<ul class="dropdown-menu">
+											<li><a href="../pages/2archeology.html">Археологические помятники</a></li>
+											<li><a href="../pages/2mountian.html">Горные достопримечательности</a></li>
+											<li><a href="../pages/2fortresses.html">Крепости</a></li>
+											<li><a href="../pages/2museum.html">Музей</a></li>
+											<li><a href="../pages/2unesco.html">Наследие юнеско</a></li>
+											<li><a href="../pages/2parks.html">Национальные парки</a></li>
+											<li><a href="../pages/2caves.html">Пещерная архитектура</a></li>
+											<li><a href="../pages/2funny.html">Развлечение</a></li>
+											<li><a href="../pages/2churches.html">Церкви и монастыри</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu show-on-hover">
+										<a class="dropdown-toggle" data-toggle="dropdown" href="destination-parent.html">Наши туры</a>
+										<ul class="dropdown-menu">
+											<li><a href="../pages/3vip-tour.html">VIP-тур</a></li>
+											<li><a href="../pages/3wine-tour.html">Винный тур</a></li>
+											<li><a href="../pages/3group-tour.html">Групповой тур</a></li>
+											<li><a href="../pages/3individual-tour.html">Индивидуальный тур</a></li>
+											<li><a href="../pages/3pilgrimage-tour.html">Паломнический туры</a></li>
+											<li><a href="../pages/3family-tour.html">Семейный тур</a></li>
+
+										</ul>
+									</li>
+									
+								</ul>
+							</li>
+
+							
+
+                            <li class="dropdown show-on-hover">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Информация</a>
+								<ul class="dropdown-menu" >
+					
+									<li><a href="../pages/4about-us.html">О нас</a></li>
+									<li><a href="../pages/4personal-of-company.html">Персонал компании</a></li>
+									<li><a href="../pages/4guides.html">Гиды</a></li>
+									<li><a href="../pages/4transport.html">Транспорт</a></li>
+									<li><a href="../pages/4contact-us.html">Контакты</a></li>
+									<li><a href="../pages/4embassies.html">Посольства в Грузии</a></li>
+									
+										
+																
+								</ul>
+							</li>
+							<li><a href="./5questions.html">Визовые вопросы</a></li>
+							<li><a href="./6how-to-get.html">Как добраться </a></li>
+						</ul>
+					</nav>
+				</div><!-- /.container-fluid -->
+			</header>
+		</div><!-- /.navbar-wrapper -->
+
+
+		<!-- Hero Section
+		================================================== -->
+		
+		<section class="hero small-hero" style="background-image:url(../assets/images/pages-images/2parks/lagodexi-1.jpeg); height: 600px;">
+			<div class="bg-overlay" style="height: 600px;">
+				<div class="container" style="display: flex; justify-content: center;" >
+					<div class="intro-wrap">
+						<h1  style="text-align: center;" class="intro-title">Национальный парки</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+        
+
+
+		<!-- Featured Destinations
+		================================================== -->
+		
+            
+
+
+       <!-- Main Section
+		================================================== -->
+        <section class="main">
+			<div class="container">
+
+				<h3 class="hidden"></h3>
+
+                <div class="row" style="display: flex; justify-content: center;">
+					<div class="col-sm-12 col-fixed-content">
+						<div class="intro">
+							<h3 ><span class="intro-text-decoration"></span>Батумский ботанический сад</h3>
+
+							<div class="entry-content" style=" border-bottom: 2px solid #575b63;">
+								<div class="wp-caption alignright pull-right" style="width: 310px;">
+									<img alt="San Francisco Sky Line" class="size-large" height="200" src="../assets/images/pages-images/2parks/baTumi-1.png" width="420">
+
+									<p class="wp-caption-text">
+									</p>
+								</div>
+
+								<p>Уникальный Батумский ботанический сад основан более ста лет назад. В XIX веке до основания ботанического сада здесь располагались две частные виллы, японский сад и приморский парк. Благодаря спокойной природе, мягкому воздуху и всегда мягкой зиме на Зеленой вершине в октябре 1912 года профессор Андрей Краснов основал Батумский ботанический сад. Три дендропарка, Колхидский заповедник, 9 отделов флоры, разделенных по ландшафтно-географическому принципу, где на территории 111 га размещено более 5 тысяч существующих в мире видов растений. 
+                                    Стоит отметить, что здесь выращивают более 80 сортов японской камелии.</p>
+								
+                            
+                            
+                            
+                                        <section id="gallery">
+                                            <div class="container">
+                                              <div id="image-gallery">
+                                                <div class="row">
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/batumi-2.jpg"><img src="../assets/images/pages-images/2parks/batumi-2.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/batumi-4.webp"><img src="../assets/images/pages-images/2parks/batumi-4.webp" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/batumi.jpg"><img src="../assets/images/pages-images/2parks/batumi.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/baTumi-1.png"><img src="../assets/images/pages-images/2parks/baTumi-1.png" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                               
+                    
+                                               
+                                                </div><!-- End row -->
+                                              </div><!-- End image gallery -->
+                                            </div><!-- End container --> 
+                                          </section>
+                            
+                                                       
+                            
+                           </div>
+						</div>        
+						</div>
+					</div>
+
+
+
+
+                 
+                                
+                                                           
+                                
+                               </div>
+                            </div>        
+                            </div>
+                        </div>
+
+
+
+
+
+				</div>
+			</div>
+		</section>
+
+
+        <section class="main">
+			<div class="container">
+
+				<h3 class="hidden"></h3>
+
+                <div class="row" style="display: flex; justify-content: center;">
+					<div class="col-sm-12 col-fixed-content">
+						<div class="intro">
+							<h3 ><span class="intro-text-decoration"></span>Лагодехский государственный заповедник</h3>
+
+							<div class="entry-content" style=" border-bottom: 2px solid #575b63;">
+								<div class="wp-caption alignright pull-right" style="width: 310px;">
+									<img alt="San Francisco Sky Line" class="size-large" height="200" src="../assets/images/pages-images/2parks/lagodexi-1.jpeg" width="420">
+
+									<p class="wp-caption-text">
+									</p>
+								</div>
+
+                                    <p>Лагодехский заповедник расположен на крайнем северо-востоке Грузии, на южных склонах гор Восточного Кавказа, на высоте 3500 метров над уровнем моря. Климат полусубтропический. Лагодехский государственный заповедник - первый заповедник Грузии, созданный в 1912 году. Рельеф резко разнообразный - большая амплитуда, различные уклоны экспозиций, глубокие овраги с реками создают примерно разные физико-географические условия. Также есть красивый водопад Лагодехского леса. В заповеднике наблюдается около 1500 видов цветочных растений, в том числе эндемичные сорта. В заповеднике обитает большинство диких животных и парнокопытных, распространенных по всей территории Грузии. Из птиц мы встречаем горного орла,
+                                         горного индюка, колхидского фазана, кавказского тетерева и др.</p>
+								
+                            
+                            
+                            
+                                        <section id="gallery">
+                                            <div class="container">
+                                              <div id="image-gallery">
+                                                <div class="row">
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/lagodexi-2.jpg"><img src="../assets/images/pages-images/2parks/lagodexi-2.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/lagodexi-3.jpg"><img src="../assets/images/pages-images/2parks/lagodexi-3.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/lagodexi-4.jpeg"><img src="../assets/images/pages-images/2parks/lagodexi-4.jpeg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/lagodexi-1.jpeg"><img src="../assets/images/pages-images/2parks/lagodexi-1.jpeg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                               
+                    
+                                               
+                                                </div><!-- End row -->
+                                              </div><!-- End image gallery -->
+                                            </div><!-- End container --> 
+                                          </section>
+                            
+                                                       
+                            
+                           </div>
+						</div>        
+						</div>
+					</div>
+
+
+
+
+                 
+                                
+                                                           
+                                
+                               </div>
+                            </div>        
+                            </div>
+                        </div>
+
+
+
+
+
+				</div>
+			</div>
+		</section>
+
+
+        <section class="main">
+			<div class="container">
+
+				<h3 class="hidden"></h3>
+
+                <div class="row" style="display: flex; justify-content: center;">
+					<div class="col-sm-12 col-fixed-content">
+						<div class="intro">
+							<h3 ><span class="intro-text-decoration"></span>Колхидский национальный парк </h3>
+
+							<div class="entry-content" style=" border-bottom: 2px solid #575b63;">
+								<div class="wp-caption alignright pull-right" style="width: 310px;">
+									<img alt="San Francisco Sky Line" class="size-large" height="200" src="../assets/images/pages-images/2parks/kolxeti-1.jpg" width="420">
+
+									<p class="wp-caption-text">
+									</p>
+								</div>
+
+				            <p>Колхидский национальный парк расположен в Западной Грузии, на Колхидской прибрежной равнине, лежащей между устьями Тикори и Супсы. Колхидский национальный парк занимает территорию площадью 28 940 га, расположенную на территории административных районов Зугдиди, Хоби, Ланчхути, Сенаки и Абаша, и включает 15 742 га морской территории. (или: его площадь 44413 га. Из них 21300 га покрыты лесом. Площадь охраняемой акватории 15742 га. Национальный парк расположен между Ланчхутским, Хоби, Сенакским, Абашским и Зугдидским административными районами, в 320 км из Тбилиси). Парк был основан в 1999 году. 
+                                В состав национального парка входят Колхидский государственный природный заповедник и озеро Палеастоми.</p>
+								
+                            
+                            
+                            
+                                        <section id="gallery">
+                                            <div class="container">
+                                              <div id="image-gallery">
+                                                <div class="row">
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/kolxeti-2.jpg"><img src="../assets/images/pages-images/2parks/kolxeti-2.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/kolxeti-3.jpeg"><img src="../assets/images/pages-images/2parks/kolxeti-3.jpeg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/kolxeti-4.jpg"><img src="../assets/images/pages-images/2parks/kolxeti-4.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/kolxeti-1.jpg"><img src="../assets/images/pages-images/2parks/kolxeti-1.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                               
+                    
+                                               
+                                                </div><!-- End row -->
+                                              </div><!-- End image gallery -->
+                                            </div><!-- End container --> 
+                                          </section>
+                            
+                                                       
+                            
+                           </div>
+						</div>        
+						</div>
+					</div>
+
+
+
+
+                 
+                                
+                                                           
+                                
+                               </div>
+                            </div>        
+                            </div>
+                        </div>
+
+
+
+
+
+				</div>
+			</div>
+		</section>
+
+
+        <section class="main">
+			<div class="container">
+
+				<h3 class="hidden"></h3>
+
+                <div class="row" style="display: flex; justify-content: center;">
+					<div class="col-sm-12 col-fixed-content">
+						<div class="intro">
+							<h3 ><span class="intro-text-decoration"></span>Сатаплийский государственный заповедник</h3>
+
+							<div class="entry-content" style=" border-bottom: 2px solid #575b63;">
+								<div class="wp-caption alignright pull-right" style="width: 310px;">
+									<img alt="San Francisco Sky Line" class="size-large" height="200" src="../assets/images/pages-images/2parks/sataflia-1.webp" width="420">
+
+									<p class="wp-caption-text">
+									</p>
+								</div>
+
+								<p>Государственный заповедник Сатаплиа – самый разнообразный и очень редкий памятник. Он носит комплексный характер и содержит геологические, палеонтологические, спелеологические и ботанические памятники. В 1933 году здесь был найден след динозавра. Государственный природный заповедник Сатаплия был создан в 1935 году для охраны геологических, палеонтологических, спелеологических и ботанических памятников. Общая площадь заповедника составляет 354 га, из них 209 га покрыты лесом. Заповедник Сатаплия гористый, большая его часть покрыта красивейшими и разнообразными лесными породами смешанных лесов колхидского типа. Горная Сатаплиа находится в 500 м. над уровнем моря.
+                                     Главными достопримечательностями заповедника являются следы травоядных и хищных динозавров в известняке.</p>
+								
+                            
+                            
+                            
+                                        <section id="gallery">
+                                            <div class="container">
+                                              <div id="image-gallery">
+                                                <div class="row">
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/sataflia-2.jpg"><img src="../assets/images/pages-images/2parks/sataflia-2.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/sataflia-3.webp"><img src="../assets/images/pages-images/2parks/sataflia-3.webp" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/sataflia-4.jpg"><img src="../assets/images/pages-images/2parks/sataflia-4.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/sataflia-1.webp"><img src="../assets/images/pages-images/2parks/sataflia-1.webp" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                               
+                    
+                                               
+                                                </div><!-- End row -->
+                                              </div><!-- End image gallery -->
+                                            </div><!-- End container --> 
+                                          </section>
+                            
+                                                       
+                            
+                           </div>
+						</div>        
+						</div>
+					</div>
+
+
+
+
+                 
+                                
+                                                           
+                                
+                               </div>
+                            </div>        
+                            </div>
+                        </div>
+
+
+
+
+
+				</div>
+			</div>
+		</section>
+
+        <section class="main">
+			<div class="container">
+
+				<h3 class="hidden"></h3>
+
+                <div class="row" style="display: flex; justify-content: center;">
+					<div class="col-sm-12 col-fixed-content">
+						<div class="intro">
+							<h3 ><span class="intro-text-decoration"></span>Национальный парк Боржом-Харагаули</h3>
+
+							<div class="entry-content" style=" border-bottom: 2px solid #575b63;">
+								<div class="wp-caption alignright pull-right" style="width: 310px;">
+									<img alt="San Francisco Sky Line" class="size-large" height="200" src="../assets/images/pages-images/2parks/borjomi-1.jpg" width="420">
+
+									<p class="wp-caption-text">
+									</p>
+								</div>
+
+							<p>В конце 19 века, в период расцвета города, вдоль небольшой реки Боржомула была создана красивая набережная. Площадь парка составляет 836 300 га. Он имеет пять входов: Ацкури, Панави, Нуниси, Боржоми и Марелисис. Набережная ведет к парку минеральных вод, где можно попробовать знаменитую воду. Часовая (3 км) прогулка вдоль реки ведет к ее истоку, где можно освежиться в естественном летнем бассейне. Боржоми - синоним здоровья, минеральной воды, курорта и пышной зелени природы Грузии. Сам парк является одним из крупнейших в 
+                                Европе - он занимает более 76 000 га естественного леса и субальпийских и альпийских лугов.</p>
+								
+                            
+                            
+                            
+                                        <section id="gallery">
+                                            <div class="container">
+                                              <div id="image-gallery">
+                                                <div class="row">
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/borjomi-2.jpg"><img src="../assets/images/pages-images/2parks/borjomi-2.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/borjomi-3.jpg"><img src="../assets/images/pages-images/2parks/borjomi-3.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/borjomi-4.jpg"><img src="../assets/images/pages-images/2parks/borjomi-4.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/borjomi-1.jpg"><img src="../assets/images/pages-images/2parks/borjomi-1.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                               
+                    
+                                               
+                                                </div><!-- End row -->
+                                              </div><!-- End image gallery -->
+                                            </div><!-- End container --> 
+                                          </section>
+                            
+                                                       
+                            
+                           </div>
+						</div>        
+						</div>
+					</div>
+
+
+
+
+                 
+                                
+                                                           
+                                
+                               </div>
+                            </div>        
+                            </div>
+                        </div>
+
+
+
+
+
+				</div>
+			</div>
+		</section>
+
+        <section class="main">
+			<div class="container">
+
+				<h3 class="hidden"></h3>
+
+                <div class="row" style="display: flex; justify-content: center;">
+					<div class="col-sm-12 col-fixed-content">
+						<div class="intro">
+							<h3 ><span class="intro-text-decoration"></span>Вашлованский государственный заповедник и национальный парк</h3>
+
+							<div class="entry-content" style=" border-bottom: 2px solid #575b63;">
+								<div class="wp-caption alignright pull-right" style="width: 310px;">
+									<img alt="San Francisco Sky Line" class="size-large" height="200" src="../assets/images/pages-images/2parks/vashlovani-1.webp" width="420">
+
+									<p class="wp-caption-text">
+									</p>
+								</div>
+
+								<p>Охраняемые территории Вашловани расположены в дальневосточной части Грузии, в Дедоплисцкаройском районе, на высоте 150-750 м над уровнем моря. В него входят Вашлованский заповедник, Вашлованский национальный парк, памятники природы «Орлиное ущелье», «Тихтитепинские грязевые вулканы» и «Джума Рощи». Государственный заповедник Вашловани был основан в 1946 году. Его площадь составляет 8034 га. Здесь находится уникальный девственный можжевельниковый лес. Заповедник является лучшим примером разнообразия видов ландшафтов, местообитаний, видов животных и птиц в стране. Здесь самая высокая концентрация рептилий и млекопитающих в Грузии. 
+                                    Парк Вашловани был окончательно создан в 2003 году и занимает площадь 25 114 га.</p>
+								
+                            
+                            
+                            
+                                        <section id="gallery">
+                                            <div class="container">
+                                              <div id="image-gallery">
+                                                <div class="row">
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/vashlovani-2.jpg"><img src="../assets/images/pages-images/2parks/vashlovani-2.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/vashlovani-3.jpg"><img src="../assets/images/pages-images/2parks/vashlovani-3.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/vashlovani-4.jpg"><img src="../assets/images/pages-images/2parks/vashlovani-4.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/vashlovani-1.webp"><img src="../assets/images/pages-images/2parks/vashlovani-1.webp" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                               
+                    
+                                               
+                                                </div><!-- End row -->
+                                              </div><!-- End image gallery -->
+                                            </div><!-- End container --> 
+                                          </section>
+                            
+                                                       
+                            
+                           </div>
+						</div>        
+						</div>
+					</div>
+
+
+
+
+                 
+                                
+                                                           
+                                
+                               </div>
+                            </div>        
+                            </div>
+                        </div>
+
+
+
+
+
+				</div>
+			</div>
+		</section>
+
+        <section class="main">
+			<div class="container">
+
+				<h3 class="hidden"></h3>
+
+                <div class="row" style="display: flex; justify-content: center;">
+					<div class="col-sm-12 col-fixed-content">
+						<div class="intro">
+							<h3 ><span class="intro-text-decoration"></span>Охраняемые территории Тушети</h3>
+
+							<div class="entry-content" style=" border-bottom: 2px solid #575b63;">
+								<div class="wp-caption alignright pull-right" style="width: 310px;">
+									<img alt="San Francisco Sky Line" class="size-large" height="200" src="../assets/images/pages-images/2parks/tusheti-1.jpg" width="420">
+
+									<p class="wp-caption-text">
+									</p>
+								</div>
+
+								<p>Государственный заповедник Тушети был основан в 1961 году на территории площадью 10 694 га. Заповедник создан с целью защиты и сохранения существующего биоразнообразия, редких животных и эндемичных родов растений и тех, которые находятся на грани исчезновения. Есть несколько выдающихся видов кавказских зубров, которых на Кавказе всего несколько, и они занесены в Красную книгу. Национальный парк Тушети является крупнейшей охраняемой территорией в Европе. Общая площадь - 83,007 га. Он был создан в 2003 году. Национальный парк Тушети включает в себя альпийские луга, 
+                                    ледники, истоки рек, редких и исчезающих животных и эндемичных реликтовых растений.</p>
+								
+                            
+                            
+                            
+                                        <section id="gallery">
+                                            <div class="container">
+                                              <div id="image-gallery">
+                                                <div class="row">
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/tusheti-2.jpeg"><img src="../assets/images/pages-images/2parks/tusheti-2.jpeg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/tusheti-3.jpeg"><img src="../assets/images/pages-images/2parks/tusheti-3.jpeg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/tusheti-4.jpg"><img src="../assets/images/pages-images/2parks/tusheti-4.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+                                                    <div class="img-wrapper">
+                                                      <a href="../assets/images/pages-images/2parks/tusheti-1.jpg"><img src="../assets/images/pages-images/2parks/tusheti-1.jpg" class="img-responsive"></a>
+                                                      <div class="img-overlay">
+                                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                               
+                    
+                                               
+                                                </div><!-- End row -->
+                                              </div><!-- End image gallery -->
+                                            </div><!-- End container --> 
+                                          </section>
+                            
+                                                       
+                            
+                           </div>
+						</div>        
+						</div>
+					</div>
+
+
+
+
+
+
+				</div>
+			</div>
+		</section>
+
+       
+
+
+
+
+
+		<!-- Footer
+		================================================== -->
+		<footer id="footer">
+			<section class="top-footer regular">
+				<div class="container">
+					<div class="row">
+
+						<h3 class="hidden">More Resources</h3>
+
+						<div class="col-lg-9">
+							<div class="footer-content-left">
+
+								<p style="font-size:14px; color:#aaa;">
+									<a href="../pages/4about-us.html">о нас</a> &nbsp; | &nbsp;
+									<a href="../pages/4contact-us.html">Связаться с нами</a>
+								</p>
+
+								<p style="font-size:14px; color: #999; margin-bottom:0;">
+									<strong>An HTML travel template for destinations, guides, blogs, hotels, resorts, tours, vacations, events, and more for a perfect travel experience!</strong>
+
+									<br>Created by <a href="http://para.llel.us" target="_blank">Parallelus</a> and available for purchase on <a href="http://para.llel.us/+/get-goexplore-html" target="_blank">ThemeForest</a>.
+								</p>
+
+							</div>
+						</div>
+
+						<div class="col-lg-3">
+							<div class="footer-content-right">
+								<div style="text-align: right;" class="visible-lg-block">
+									<img src="../assets/images/main-logo.png" alt="GoExplore!" width="1024" height="565" style="max-width: 175px;">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="sub-footer">
+				<div class="container">
+					<div class="row">
+
+						<h3 class="hidden">About</h3>
+
+						<div class="col-xs-12">
+							<span style="color:#999; font-size: 15px;" class="pull-right">
+								<a href="http://para.llel.us/+/get-goexplore-html" target="_blank" class="text-info" style="text-decoration:none;">
+								</a>
+							</span>
+
+							<span style="color:#999; font-size: 13px;">&copy; 2015 Parallelus | GoExplore! HTML Travel Template. Terms of Use and Privacy Policy.</span>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="../assets/js/bootstrap.min.js"></script>
+		<script src="../assets/js/owl.carousel.min.js"></script>
+		<script src="../assets/js/custom.js"></script>
+        <script src="../assets/js/gallery.js"></script>
+	</body>
+</html>
+</body>
+</html>
