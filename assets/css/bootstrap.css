@@ -10012,9 +10012,7 @@ a.more-link {
 /* email-button-left-logo */
 /* email-button-left-logo */
 /* email-button-left-logo */
-#email-button-left-logo {
- margin-left: 250px;
-}
+
 @media (max-width: 1300px) { 
   #email-button-left-logo {
     margin-left: 0px;
