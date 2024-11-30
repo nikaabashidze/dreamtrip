@@ -892,7 +892,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: #222324;
-  background-color: #ffffff;
+  background-color: #c9d5d5;
 }
 input,
 button,
@@ -6996,6 +6996,7 @@ h1.page-title {
   }
 }
 .title-row {
+  margin-top: 250px;
   line-height: 48px;
   padding: 0 0 24px;
   vertical-align: bottom;
@@ -7012,6 +7013,7 @@ h1.page-title {
   padding: 0 2rem 0 0;
   text-transform: uppercase;
   vertical-align: bottom;
+  color: black;
 }
 .title-row .btn,
 .title-row button,
@@ -7609,7 +7611,7 @@ body.no-hero-image {
 .background {
   background-position: center;
   background-size: cover;
-  background-color: #f5f6f6;
+  background-color: #c9d5d5;
 }
 .narrow {
   padding-top: 4rem;
@@ -7808,11 +7810,12 @@ form.big-search button:hover span.glyphicon {
     bottom: 18rem;
   }
 }
-.hero .intro-title {
+.hero .intro-title  {
   color: #fff;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
   margin-bottom: 1rem;
-  font-size: 36.018px;
+  font-size: 32.018px;
+  padding-top: 200px;
 }
 @media (min-width: 768px) {
   .hero .intro-title {

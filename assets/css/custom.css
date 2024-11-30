@@ -1,0 +1,22 @@
+.hero .intro-title  {
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+    margin-bottom: 8rem;
+    margin-top: 200px;
+    font-size: 45.018px;
+    margin-top: 400px;
+  }
+
+
+  .moments-text{
+ 
+    display: inline-block;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0 2rem 0 0;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  color: black;
+  }
