@@ -8883,9 +8883,7 @@ div:not([class*='navbar-wrapper']) > .navbar .navbar-toggle {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-.navbar .dropdown {
-  /* Show on hover */
-}
+
 .navbar .dropdown-submenu {
   position: relative;
 }
@@ -10073,3 +10071,20 @@ h2 {
 .whatsapp { color: #25D366; }
 .viber { color: #665191; }
 .telegram { color: #0088cc; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
