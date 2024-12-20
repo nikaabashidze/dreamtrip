@@ -1443,21 +1443,22 @@
 								</div>
 								<hr class="small">
 								<div style="width: 600px; text-align: left; margin: 0 auto; max-width: 100%">
-									<form enctype="multipart/form-data" method="post" action="">
-
+									<form enctype="multipart/form-data" method="POST" action="https://formsubmit.co/georgianguidemail@gmail.com">
+										<p>Fields marked with an <span class="text-warning">*</span> are required</p>
+								
 										<div class="form-group">
-											<input id="name_field" type="text" placeholder="Name *" class="form-control" value="">
+											<input id="name_field" type="text" placeholder="Name *" class="form-control" name="name" required>
 											<label for="name_field">Please enter your name.</label>
 										</div>
 										<div class="form-group">
-											<input id="email_field" type="text" placeholder="Email *" class="form-control" value="">
+											<input id="email_field" type="email" placeholder="Email *" class="form-control" name="email" required>
 											<label for="email_field">Please enter your email address.</label>
 										</div>
-										<div class="form-group" >
-											<textarea placeholder="Message *" id="comment_field" class="form-control" rows="3"></textarea>
-											<label for="comment_field">Please enter your email address.</label>
+										<div class="form-group">
+											<textarea placeholder="Message *" id="comment_field" class="form-control" rows="3" name="message" required></textarea>
+											<label for="comment_field">Please enter your message.</label>
 										</div>
-
+								
 										<input type="submit" class="display-block" style="margin: 0 auto;" value="Send Message">
 									</form>
 								</div>

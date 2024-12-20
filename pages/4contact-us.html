@@ -177,7 +177,7 @@
 
 								<div class="contact-info">
 									<p><i class="fas fa-phone phone"></i>Телефон: <a href="tel:+995551093000">+995 551-09-30-00</a></p> 
-									<p><i class="fas fa-envelope email"></i>Email: <a href="mailto:Dreamtripgeo@gmail.com">Dreamtripgeo@gmail.com</a></p>
+									<p><i class="fas fa-envelope email"></i>Email: <a href="mailto:georgianguidemail@gmail.com">georgianguidemail@gmail.com</a></p>
 									<p><i class="fab fa-facebook facebook"></i>Facebook: <a href="https://www.facebook.com/" target="_blank">Facebook</a></p>
 									<p><i class="fab fa-instagram instagram"></i>Instagram: <a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
 									<p><i class="fab fa-whatsapp whatsapp"></i>WhatsApp: <a href="https://wa.link/rgj6ch" target="_blank">WhatsApp</a></p>
@@ -192,22 +192,22 @@
 								<h2>Отправить Email</h2>
 								<hr class="small">
 								<div style="width: 600px; text-align: left; margin: 0 auto; max-width: 100%">
-									<form enctype="multipart/form-data" method="post" action="contact.html">
+									<form enctype="multipart/form-data" method="POST" action="https://formsubmit.co/georgianguidemail@gmail.com">
 										<p>Fields marked with an <span class="text-warning">*</span> are required</p>
-
+								
 										<div class="form-group">
-											<input id="name_field" type="text" placeholder="Name *" class="form-control" value="">
+											<input id="name_field" type="text" placeholder="Name *" class="form-control" name="name" required>
 											<label for="name_field">Please enter your name.</label>
 										</div>
 										<div class="form-group">
-											<input id="email_field" type="text" placeholder="Email *" class="form-control" value="">
+											<input id="email_field" type="email" placeholder="Email *" class="form-control" name="email" required>
 											<label for="email_field">Please enter your email address.</label>
 										</div>
-										<div class="form-group" >
-											<textarea placeholder="Message *" id="comment_field" class="form-control" rows="3"></textarea>
-											<label for="comment_field">Please enter your email address.</label>
+										<div class="form-group">
+											<textarea placeholder="Message *" id="comment_field" class="form-control" rows="3" name="message" required></textarea>
+											<label for="comment_field">Please enter your message.</label>
 										</div>
-
+								
 										<input type="submit" class="display-block" style="margin: 0 auto;" value="Send Message">
 									</form>
 								</div>
