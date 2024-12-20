@@ -18,12 +18,6 @@ md-dialog {
 
 
 
-
-
-
-
-
-
 .video_container {
   width: 100%;
   height: 700px;
@@ -44,6 +38,15 @@ md-dialog {
 
 /* Media Query for screens with max-width of 550px */
 @media (max-width: 680px) {
+
+
+  .video_container {
+    height: 500px;
+
+  }
+
+
+
   .main-video {
     width: 100%;   /* Keep the width 100% */
     height: 500px; /* Adjust video height to make it longer */
@@ -72,12 +75,22 @@ md-dialog {
 
 
 
+  @media (max-width: 600px) {
+
+    .main-text-container {
+      width: 300px;
+
+    }
+
+    .main-intro-title{
+      font-size: 20px;
+    }
+
+    
+
+  }
 
 
-
-
-
-  
   .moments-text{
  
     display: inline-block;
@@ -92,16 +105,17 @@ md-dialog {
   }
 
 
+
+
   @media (max-width: 600px) {
 
-    .hero .intro-title{
-      font-size: 20px;
-    }
-
+  .title-row{
+    margin-top: 5px;
+  }
+  
     
 
   }
-
 
 
 
