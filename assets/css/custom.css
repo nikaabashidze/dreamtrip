@@ -1,6 +1,23 @@
 
 /* Default video styles */
 
+
+
+#gt-nvframe {
+  display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .video_container {
   width: 100%;
   height: 700px;
