@@ -5,9 +5,11 @@
 
 #gt-nvframe {
   display: none !important;
-  margin-top: 2px;
 }
 
+body.home {
+  margin-top: 0 !important;
+}
 
 
 
