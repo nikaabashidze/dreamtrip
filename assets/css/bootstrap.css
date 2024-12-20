@@ -6996,7 +6996,7 @@ h1.page-title {
   }
 }
 .title-row {
-  margin-top: 250px;
+  margin-top: 150px;
   line-height: 48px;
   padding: 0 0 24px;
   vertical-align: bottom;
@@ -7807,15 +7807,15 @@ form.big-search button:hover span.glyphicon {
 }
 @media (min-width: 768px) {
   .hero.hero-overlap .intro-wrap {
-    bottom: 18rem;
+    bottom: -20rem;
   }
 }
 .hero .intro-title  {
   color: #fff;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
-  margin-bottom: 1rem;
   font-size: 32.018px;
-  padding-top: 200px;
+  margin-top: 1000px;
+
 }
 @media (min-width: 768px) {
   .hero .intro-title {

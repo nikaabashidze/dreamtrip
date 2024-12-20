@@ -1,17 +1,21 @@
 function changeLanguage() {
-    const selectedLanguage = document.getElementById("language").value; // აირჩიეთ ენა
+  const selectedLanguage = document.getElementById("language").value;
 
-    // ენის URL-მაპინგი
-    const languageUrls = {
-      ru: "https://nikaabashidze-github-io.translate.goog/dreamtrip/?_x_tr_sl=auto&_x_tr_tl=ru&_x_tr_hl=ru&_x_tr_pto=wapp", // რუსული
-      en: "https://nikaabashidze-github-io.translate.goog/dreamtrip/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=ru&_x_tr_pto=wapp", // ინგლისური
-      de: "https://nikaabashidze-github-io.translate.goog/dreamtrip/?_x_tr_sl=auto&_x_tr_tl=de&_x_tr_hl=ru&_x_tr_pto=wapp"  // გერმანული
-    };
+  // Google Translate URL
+  const languageUrls = {
+      ru: "https://translate.google.com/translate?sl=auto&tl=ru&u=https://nikaabashidze.github.io/dreamtrip/",
+      en: "https://translate.google.com/translate?sl=auto&tl=en&u=https://nikaabashidze.github.io/dreamtrip/",
+      de: "https://translate.google.com/translate?sl=auto&tl=de&u=https://nikaabashidze.github.io/dreamtrip/"
+  };
 
-    // თუ ენა ხელმისაწვდომია, გადადით შესაბამის URL-ზე
-    if (languageUrls[selectedLanguage]) {
-      window.location.href = languageUrls[selectedLanguage]; // გადამისამართება
-    } else {
-      console.error("Unsupported language selected: " + selectedLanguage); // შეცდომა
-    }
+  if (!selectedLanguage) {
+      alert("Please select a language!"); // ენების შერჩევის მოთხოვნა
+      return;
+  }
+
+  if (languageUrls[selectedLanguage]) {
+      window.location.href = languageUrls[selectedLanguage]; // Google Translate-ზე გადამისამართება
+  } else {
+      console.error("Unsupported language selected: " + selectedLanguage);
+  }
 }
