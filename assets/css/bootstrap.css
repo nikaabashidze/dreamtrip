@@ -8379,17 +8379,26 @@ body .hero .intro-text {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#4d000000', GradientType=1);
   }
 }
+
+
 .featured-slider article {
-  padding: 15% 0;
+  width: 500px;
+
+  padding: 10% 0;
   color: #fff;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
 }
 @media (min-width: 768px) {
   .featured-slider article {
+    width: 500px;
     padding: 10rem 0;
   }
 }
+
+
+
 .featured-slider article h3 {
+  
   color: #fff;
   font-size: 38px;
   font-weight: 800;

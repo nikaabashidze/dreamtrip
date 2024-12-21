@@ -174,3 +174,21 @@ jQuery(document).ready(function($){
     $(document).trigger('shrink-menu');
 
 });
+
+
+
+
+// ამ ფუნქციით შეგიძლია შექმნათ სმუთი სქროლი
+document.querySelector('a[href^="#"]').addEventListener("click", function (event) {
+	event.preventDefault(); // თავიდან აიცილებს ლინკის ან ჩვეულებრივ გადატვირთვას
+  
+	// სმუთი სქროლის დამატება
+	const targetId = this.getAttribute("href");
+	const targetElement = document.querySelector(targetId);
+	
+	window.scrollTo({
+	  top: targetElement.offsetTop,
+	  behavior: "smooth" // ანიმაცია
+	});
+  });
+  
