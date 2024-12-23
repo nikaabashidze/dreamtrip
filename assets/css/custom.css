@@ -25,11 +25,12 @@ md-dialog {
 
 
 .navbar-slogan {
+  max-width: 290px;
   color: white;
   position: absolute;
-  margin-right: 550px;
+  margin-right: 560px;
   top: 10px;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 
