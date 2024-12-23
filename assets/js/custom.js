@@ -192,3 +192,20 @@ document.querySelector('a[href^="#"]').addEventListener("click", function (event
 	});
   });
   
+
+
+//  ვიდეოს ავტომატური ჩართვა
+  document.addEventListener("DOMContentLoaded", function() {
+    var video = document.querySelector(".main-video");
+    
+    // Проверка, может ли видео проигрываться автоматически
+    if (video) {
+        video.play().catch(function(error) {
+            console.log("Autoplay is blocked. Trying to play the video manually...");
+            // Если autoplay заблокирован, пробуем воспроизвести видео вручную
+            video.muted = true; // Убедитесь, что видео будет без звука
+            video.play();
+        });
+    }
+});
+
