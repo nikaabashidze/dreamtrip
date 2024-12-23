@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "godaddy"]
+	url = ssh://b38hegljfa0t@92.205.173.138:/home/b38hegljfa0t/repositories/dreamtrip
+	fetch = +refs/heads/*:refs/remotes/godaddy/*
