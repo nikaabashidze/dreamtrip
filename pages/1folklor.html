@@ -85,7 +85,7 @@
 
 								<li >
 									<a href="#" class="language-selector">
-										<select class="language" id="language" onchange="changeLanguage()" translate="no">
+										<select class="language" id="language-bottom" onchange="changeLanguage()" translate="no">
 											<option value="" disabled selected>Select Language</option> <!-- default message -->
 											<option value="ru">RU</option>
 											<option value="en">EN</option>
@@ -96,6 +96,8 @@
 										</select>
 									</a>
 								</li>	
+									
+								  
 								
 								<li><a href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
 								<li><a href="#"><i class="fa fa-google-plus fa-fw"></i></a></li>
@@ -109,12 +111,38 @@
 
 				<div class="container-fluid collapse-md" id="navbar-main-container">
 					<div class="navbar-header">
+
+
 						<a href="../index.html" class="navbar-brand"><img alt="GoExplore!" src="../assets/images/main-logo-white.png"><span class="sr-only">&nbsp; GoExplore!</span></a>
-						<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
+
+
+
+						<div  class="mobile-nav">
+							<li class="mobile-language  navbar-toggle" >
+								<a href="#" class="language-selector">
+									<select class="language" id="language" onchange="changeLanguage()" translate="no">
+										<option value="" disabled selected>Select Language</option> <!-- default message -->
+										<option value="en">EN</option>
+										<option value="ru">RU</option>
+										<option value="de">DE</option>
+										<option value="it">IT</option>
+										<option value="es">ES</option>
+										<option value="lt">LT</option>	
+									</select>
+								</a>
+							</li>	
+
+
+							<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+
+
+
+						</div>
+
 					</div>
 
 					<nav class="navbar-collapse collapse" id="navbar-main">
@@ -384,6 +412,7 @@
 		<script src="../assets/js/owl.carousel.min.js"></script>
 		<script src="../assets/js/custom.js"></script>
         <script src="../assets/js/gallery.js"></script>
+        <script src="../assets/js/language.js"></script>
 	</body>
 </html>
 </body>
